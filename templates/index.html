@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" text="text/css" href="{{ url_for('static', filename='css/style_game.css') }}">
+    <title>Great Number Game</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to the Great Number Game!</h2>
+        <p>I am thinking of number between 1 and 100</p>
+        <p>Take a guess!</p>
+        <div class="area">
+            <form id="main" action="/guess" method="POST">
+                <input id="gusnum" type="number" name="number"><br>
+                <input id="subbtn" type="submit" name="" value="Submit">
+            </form>
+            <form action="/reset">
+                <input id="rebtn"type="submit" name="" value="Reset">
+            </form>
+            <p class="mes">{{message}}</p>
+            <!-- {{number}} -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body *{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 30px 0 30px 0;
+    background-color: lightsalmon;
+    height: 45px;
+    width: 500px;
+    padding-top: 15px;
+    display: inline-block;
+    color:white;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#form{
+    vertical-align: top;
+    display: inline-block;
+}
+#subbtn, #rebtn{
+    vertical-align: top;
+    width: 65px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#gusnum{
+    width:60px;
+    height: 50px;
+    padding-left:15px;
+    margin-bottom: 25px;
+    font-size: 20pt;
+}
+.area{
+    text-align: center;
+    display: inline-block;
+}
+.mes{
+    width: 350px;
+    height: 90px;
+    text-align: center;
+    display: inline-block;
+    border: 5px solid lightsalmon;
+    padding-top:20px;
+    font-size: 25pt;
+}
